@@ -1,3 +1,6 @@
+@use './partials/variables' as *;
+@use './partials/header';
+
 @import '~bootstrap/scss/bootstrap';
 
 a {
