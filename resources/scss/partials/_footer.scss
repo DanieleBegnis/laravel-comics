@@ -6,17 +6,31 @@ footer {
         background-image: url('../img/dc-logo-bg.png');
         background-repeat: no-repeat;
         background-position: 100%;
+    }
+    .subtitle {
+        color: #fff;
+    }
+    ul {
+        padding: 0;
+    }
+    li {
+        font-size: 10px;
+        a {
+            color: #959595;
+        }
     } 
 }
-.subtitle {
-    color: #fff;
-}
-ul {
-    padding: 0;
-}
-li {
-    font-size: 10px;
-    a {
-        color: #959595;
+.footer-final {
+    background-color: $brand-secondary;
+    .btn {
+        color: #fff;
+        border: 3px solid $brand-primary;
+        border-radius: 0
+    }
+    .subtitle {
+        color: $brand-primary;
+    }
+    img {
+        vertical-align: middle;
     }
 }

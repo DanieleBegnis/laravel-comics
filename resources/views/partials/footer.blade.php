@@ -103,4 +103,33 @@
             </div>
         </div>
     </div>
+    <div class="footer-final">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-6">
+                    <button type="button" class="btn my-3">SIGN-UP! NOW</button>
+                </div>
+                <div class="col-6 d-flex align-items-center justify-content-end">
+                    <div class="subtitle font-weight-bold fs-5"> FOLLOW US</div>
+                    <ul class="d-flex">
+                        <li>
+                            <img class="mx-3" src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="">
+                        </li>
+                        <li>
+                            <img class="mx-3" src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="">
+                        </li>
+                        <li>
+                            <img class="mx-3" src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="">
+                        </li>
+                        <li>
+                            <img class="mx-3" src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="">
+                        </li>
+                        <li>
+                            <img class="mx-3" src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
