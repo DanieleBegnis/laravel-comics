@@ -21,3 +21,11 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+Route::get('/only-comics', function () {
+    $comics = config('comics');
+
+    $data = [
+        'comics' => $comics
+    ];
+    return view('only-comics', $data);
+});
