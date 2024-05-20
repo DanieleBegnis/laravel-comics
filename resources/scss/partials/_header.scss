@@ -1,0 +1,23 @@
+@use './variables' as *;
+
+.col-6 {
+    img {
+        padding: 20px, 0;
+        display: block;
+    }
+    ul {
+        a {
+            color: #000;
+            &.active {
+            color: $brand-primary;
+        }
+        }
+    }
+    li {
+        padding: 12px;
+        &.active {
+            color: $brand-primary;
+            border-bottom: 3px solid $brand-primary;
+        }
+    }
+}
