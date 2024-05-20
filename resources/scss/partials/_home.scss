@@ -34,3 +34,14 @@ main {
         object-position: top;
     }
 }
+.main-links-container {
+    background-color: $brand-primary;
+}
+ul {
+    a {
+        color: #fff;
+    }
+    img {
+        max-width: 50px;
+    }
+}
